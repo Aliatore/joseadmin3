@@ -241,7 +241,7 @@ const RegistrarUsuario = () => {
                 </Row>
               </CardHeader>
               <CardBody>
-              <Container>
+              <Container style={{textAlign:"center"}}>
                 <h5><MDBIcon className="mt-1" size="lg" icon="user-circle"/> Datos del usuario</h5>
               </Container>
                 <Form className="pt-2 ml-3" onSubmit={registerNewUser}>
