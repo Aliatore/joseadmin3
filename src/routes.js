@@ -53,6 +53,13 @@ const EntregasProfesor = React.lazy(() => import('./views/Views/Proyectos/Entreg
 const FormularioExamen = React.lazy(() => import('./views/Views/IngresarTrabajo/FormularioExamen'));
 const FormularioTrabajo = React.lazy(() => import('./views/Views/IngresarTrabajo/FormularioTrabajo'));
 const FormularioClases = React.lazy(() => import('./views/Views/IngresarTrabajo/FormularioClases.js'));
+//rutas Taller
+const RegistrarUsuarioTaller = React.lazy(() => import('./views/Taller/RegistrarUser.js'));
+const ActualizarUsuarioTaller = React.lazy(() => import('./views/Taller/UpdateUser'));
+const AutomovilesDeClientesTaller = React.lazy(() => import('./views/Taller/CarPeerClient'));
+const Diagnostico = React.lazy(() => import('./views/Taller/Diagnostic'));
+const AsignacionesParaRefacciones = React.lazy(() => import('./views/Taller/AsignationToRefact'));
+
 
 
 // https://github.com/ReactTraining/react-router/tree/master/packages/react-router-config
@@ -108,6 +115,12 @@ const routes = [
   { path: '/enviar-archivo', exact: true, name: 'Enviar archivo', component: EnviarProyecto},
   { path: '/descargar-archivos', exact: true, name: 'Descargar archivo', component: DescargarArchivos},
   { path: '/chat', exact: true, name: 'Chat', component: Chat},
+  //Taller
+  { path: '/registrar-usuario', exact: true, name: 'Registrar Usuario', component: RegistrarUsuarioTaller},
+  { path: '/actualizar-usuario', exact: true, name: 'Actualizar Usuario', component: ActualizarUsuarioTaller},
+  { path: '/automoviles-de-clientes', exact: true, name: 'Automóviles de clientes', component: AutomovilesDeClientesTaller},
+  { path: '/diagnostico', exact: true, name: 'Diagnóstico', component: Diagnostico},
+  { path: '/asignation-to-refact', exact: true, name: 'Asignación para refacción', component: AsignacionesParaRefacciones},
 ];
 
 export default routes;

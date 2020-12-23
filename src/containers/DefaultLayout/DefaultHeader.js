@@ -36,11 +36,11 @@ class DefaultHeader extends Component {
     const LogoEA = require('../../assets/taller.jpg')
     const LogitoEA = require('../../assets/taller.jpg')
     return (
-      <React.Fragment>
-        <AppSidebarToggler className="d-lg-none" display="md" mobile />
+      <React.Fragment style={{backgroundColor:"#32338F"}}>
+        <AppSidebarToggler  className="d-lg-none" display="md" mobile />
         <AppNavbarBrand
-          full={{ src: LogoEA, width: 89, height: 25, alt: 'logoEA' }}
-          minimized={{ src: LogitoEA, width: 30, height: 30, alt: 'logoEA' }}
+          full={{ src: LogoEA, width: 25, height: 25, alt: 'logoEA' }}
+          minimized={{ src: LogitoEA, width: 25, height: 25, alt: 'logoEA' }}
         />
         <AppSidebarToggler className="d-md-down-none" display="lg" />
 
