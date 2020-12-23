@@ -33,8 +33,8 @@ class DefaultHeader extends Component {
     // eslint-disable-next-line
     const { children, ...attributes } = this.props;
 
-    const LogoEA = require('../../assets/apruebaexamenes.png')
-    const LogitoEA = require('../../assets/iconoAE.png')
+    const LogoEA = require('../../assets/taller.jpg')
+    const LogitoEA = require('../../assets/taller.jpg')
     return (
       <React.Fragment>
         <AppSidebarToggler className="d-lg-none" display="md" mobile />
