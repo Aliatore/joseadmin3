@@ -68,7 +68,7 @@ class Login extends Component {
               <Col md="5">
                 <CardGroup className="mb-5 rounded">
                   <Card className="p-4">
-                    <Row >
+                    <Row>
                       <Col xs="12" md={{ size: 7, offset: 3 }} lg={{ size: 6, offset: 3}} >
                         <CardImg top src={require('../../../assets/apruebaexamenes.png')} width="100%" alt="aelogo"/>
                       </Col>

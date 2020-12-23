@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter, Route, Switch, Redirect} from 'react-router-dom';
+import { BrowserRouter, Route, Switch, Redirect} from 'react-router-dom';
 // import { renderRoutes } from 'react-router-config';
 import './App.scss';
 import axios from 'axios'
@@ -148,7 +148,7 @@ class App extends Component {
   
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter>
           <React.Suspense fallback={loading()}>
             <Switch>
               <Route path="/login" name="Login Page" render={() =>{
@@ -186,7 +186,7 @@ class App extends Component {
             pauseOnHover
           />
           <ToastContainer />
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }
