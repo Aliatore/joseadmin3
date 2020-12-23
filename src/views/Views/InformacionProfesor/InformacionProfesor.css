@@ -1,0 +1,23 @@
+.titulo{
+    color :black;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.Estado{
+    background-color:  #ffffff !important;
+}
+
+.Tablas{
+  vertical-align: baseline;
+}
+
+.tablas-tr{
+  vertical-align: baseline;
+}
+
+.table th, .table td {
+  padding: 0.75rem;
+  vertical-align: baseline;
+  border-top: 1px solid #c8ced3;
+}

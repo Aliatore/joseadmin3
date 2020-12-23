@@ -1,0 +1,6 @@
+{
+  "name": "RegistrarRol",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./RegistrarRol.js"
+}

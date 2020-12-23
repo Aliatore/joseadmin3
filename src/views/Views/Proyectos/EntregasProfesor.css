@@ -1,0 +1,36 @@
+.btn-fondo{
+    background: rgb(0, 31, 206);
+    background: linear-gradient(90deg, rgb(28, 61, 250) 0%, rgb(12, 34, 161) 46%, rgb(1, 18, 110) 100%);
+}
+
+.archivo{
+  display: none;
+}
+
+.archivolabel{
+  color :white;
+  height: 30px;
+  width: 190px;
+    background: rgb(0, 31, 206);
+    background: linear-gradient(90deg, rgb(28, 61, 250) 0%, rgb(12, 34, 161) 46%, rgb(1, 18, 110) 100%);
+  position: absolute;
+  margin: auto;
+  top: 20px;
+  bottom: auto;
+  left: 0;
+  right: 0;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  border-radius: 5px;
+}
+
+.paginas{
+  margin-top: 100px;
+}
+
+.porcentaje{
+  margin-top: 20px;
+}
+

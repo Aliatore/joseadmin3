@@ -1,0 +1,137 @@
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+    margin: 0;
+
+  }
+
+  input[type=number] {
+
+    -moz-appearance:textfield;
+
+}
+
+  .inputMonto {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #e4e7ea;
+  }
+
+  .sidebar{
+    background-color: #0400ff !important;
+  }
+
+  .sidebar .nav-link.active {
+    color: #fff !important;
+    background: #020161d7 !important;
+  }
+
+  .sidebar .nav-link:hover {
+    color: #fff !important;
+    background: #020161d7 !important;
+  }
+
+  .sidebar .nav-link .nav-icon {
+    color: #fff !important;
+  }
+  /* style={{backgroundColor: "#0041f6"}} */
+  .sidebar .sidebar-minimizer {
+    background-color: #020161d7 !important;
+  }
+  /* calendar */
+  .fc-toolbar-chunk {
+    margin-top: 9px;
+    margin-bottom: 9px;
+  }
+  .fc-scrollgrid {
+    margin-bottom: 10px;
+  }
+  /* Tablas nuevas */
+  
+  .Tablas {
+    background-color: #fff;
+    vertical-align: middle !important;
+    text-align: center;
+    font-size: 15px;
+    width: '210px';
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .table thead th {
+    vertical-align: middle !important;
+  }
+  .table th, .table td {
+    vertical-align: middle !important;
+  }
+
+  .Estado{
+    margin-top: 20px;
+  }
+
+  .carouselCaption{
+    color: rgb(255, 255, 255) !important;
+  }
+
+  .calendarWidth {
+    background-color: #6b0404;
+  }
+  
+  .Formulario {
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .inputgroup {
+    padding-top: 100px;
+    left: 100px;
+  }
+
+  .file-c {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .restante {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+
+  .comentario {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+  }
+
+  .container_ifr {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
