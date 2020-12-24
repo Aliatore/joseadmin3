@@ -56,6 +56,7 @@ const FormularioClases = React.lazy(() => import('./views/Views/IngresarTrabajo/
 //rutas Taller
 const RegistrarUsuarioTaller = React.lazy(() => import('./views/Taller/RegistrarUser.js'));
 const ActualizarUsuarioTaller = React.lazy(() => import('./views/Taller/UpdateUser'));
+const RegistrarVehiculoTaller = React.lazy(() => import('./views/Taller/RegistrarVehículo'));
 const AutomovilesDeClientesTaller = React.lazy(() => import('./views/Taller/CarPeerClient'));
 const Diagnostico = React.lazy(() => import('./views/Taller/Diagnostic'));
 const AsignacionesParaRefacciones = React.lazy(() => import('./views/Taller/AsignationToRefact'));
@@ -121,6 +122,8 @@ const routes = [
   { path: '/automoviles-de-clientes', exact: true, name: 'Automóviles de clientes', component: AutomovilesDeClientesTaller},
   { path: '/diagnostico', exact: true, name: 'Diagnóstico', component: Diagnostico},
   { path: '/asignation-to-refact', exact: true, name: 'Asignación para refacción', component: AsignacionesParaRefacciones},
+  { path: '/registrar-vehiculo', exact: true, name: 'Registrar vehículo', component: RegistrarVehiculoTaller},
+
 ];
 
 export default routes;

@@ -65,7 +65,12 @@ export default {
       icon: 'icon-user',
     },
     {
-      name: 'Automóviles de clientes',
+      name: 'Registrar vehículo',
+      url: '/registrar-vehiculo',
+      icon: 'icon-plus',
+    },
+    {
+      name: 'Vehículos de clientes',
       url: '/automoviles-de-clientes',
       icon: 'icon-speedometer',
     },
